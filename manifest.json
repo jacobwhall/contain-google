@@ -3,7 +3,7 @@
     "name": "Google Container (w/ W&M)",
     "version": "1.5.0",
 
-    "description": "Google Container isolates your Google activity from the rest of your web activity in order to prevent Google from tracking you outside of the Google website via third party cookies.",
+    "description": "Google Container isolates your Google activity from the rest of your web activity in order to prevent Google from tracking you outside of the Google website via third party cookies. This extension also allows W&M Google account authentication.",
 
     "icons": {
         "48": "icon.png",
@@ -12,12 +12,12 @@
 
     "applications": {
       "gecko": {
-        "id": "@contain-google",
+        "id": "@contain-google-with-wm",
         "strict_min_version": "57.0"
       }
     },
 
-    "homepage_url": "https://github.com/containers-everywhere/contain-google",
+    "homepage_url": "https://github.com/jacobwhall/contain-google-with-wm",
 
     "permissions": [
         "<all_urls>",
