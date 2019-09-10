@@ -39,9 +39,13 @@ const DEVELOPER_DOMAINS = [
   "madewithcode.com", "design.google", "gallery.io", "domains.google", "material.io", "android.com", "chromium.org", "cobrasearch.com", "chromecast.com", "chrome.com", "chromebook.com", "madewithcode.com", "whatbrowser.org", "withgoogle.com", "web.dev",
 ];
 
+const WM_AUTH_DOMAINS = [
+  "idp.wm.edu",
+];
+
 GOOGLE_DOMAINS = GOOGLE_DOMAINS.concat(GOOGLE_INTL_DOMAINS)
   .concat(GOOGLE_SERVICES).concat(YOUTUBE_DOMAINS).concat(BLOGSPOT_DOMAINS).concat(ALPHABET_DOMAINS)
-  .concat(DEVELOPER_DOMAINS).concat(AD_DOMAINS);
+  .concat(DEVELOPER_DOMAINS).concat(AD_DOMAINS).concat(WM_AUTH_DOMAINS);
 
 const MAC_ADDON_ID = "@testpilot-containers";
 
